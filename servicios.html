@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para la página de servicios */
+        .servicios-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .servicio {
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .servicio h3 {
+            text-align: center;
+        }
+
+        .boton-ver-mas {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .boton-ver-mas:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Service Oficial</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="somos.html">Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="servicios-container">
+            <div class="servicio">
+                <h3>Limpieza</h3>
+                <p>Descripción del servicio de limpieza.</p>
+                <button class="boton-ver-mas">Ver más</button>
+            </div>
+            <div class="servicio">
+                <h3>Restauraciones</h3>
+                <p>Descripción del servicio de restauraciones.</p>
+                <button class="boton-ver-mas">Ver más</button>
+            </div>
+            <div class="servicio">
+                <h3>Cambio de Pilas</h3>
+                <p>Descripción del servicio de cambio de pilas.</p>
+                <button class="boton-ver-mas">Ver más</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Compra & Venta Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
